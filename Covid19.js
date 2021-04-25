@@ -245,7 +245,7 @@ async function allcountry(){
     //console.log(data1,restdata1,vaccines);
     for(var i=0;i<data1.length-1;i++){
         if(data1[i]['country']){
-        var col3 = createTag("div","col-4");
+        var col3 = createTag("div","col-md-4");
         var allcards = createTag("div","card");
         allcards.setAttribute("style","background-color:rgb(32, 32, 32); border-top:6px solid purple;padding:10px;margin-top:20px;");
         var cardheader = createTag("div","card-header text-center");
