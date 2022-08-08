@@ -6,7 +6,7 @@ function createTag(element, elementClass="",elementID=""){
     tag.setAttribute("id",elementID);
     return tag;
 }
-
+//trying out
 async function callapi(){
     try{
         var resp = await fetch("https://covid-api.mmediagroup.fr/v1/cases");
